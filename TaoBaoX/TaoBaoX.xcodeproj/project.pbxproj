@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9CC00E1C71D48A0023B16F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CC00D1C71D48A0023B16F /* main.m */; };
+		AC9CC01A1C71D48A0023B16F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9CC0181C71D48A0023B16F /* Main.storyboard */; };
+		AC9CC01C1C71D48A0023B16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9CC01B1C71D48A0023B16F /* Assets.xcassets */; };
+		AC9CC01F1C71D48A0023B16F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9CC01D1C71D48A0023B16F /* LaunchScreen.storyboard */; };
+		AC9CC02A1C71D48A0023B16F /* TaoBaoXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CC0291C71D48A0023B16F /* TaoBaoXTests.m */; };
+		AC9CC0351C71D48A0023B16F /* TaoBaoXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9CC0341C71D48A0023B16F /* TaoBaoXUITests.m */; };
+		ACE5DD8B1C71D60500BA2A04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DD801C71D60500BA2A04 /* AppDelegate.m */; };
+		ACE5DD8C1C71D60500BA2A04 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DD821C71D60500BA2A04 /* IndexViewController.m */; };
+		ACE5DD8D1C71D60500BA2A04 /* MyCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DD841C71D60500BA2A04 /* MyCartViewController.m */; };
+		ACE5DD8E1C71D60500BA2A04 /* MyTaobaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DD861C71D60500BA2A04 /* MyTaobaoViewController.m */; };
+		ACE5DD8F1C71D60500BA2A04 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DD881C71D60500BA2A04 /* SearchViewController.m */; };
+		ACE5DD901C71D60500BA2A04 /* WeiTaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DD8A1C71D60500BA2A04 /* WeiTaoViewController.m */; };
+		ACE5DD9C1C71D67200BA2A04 /* tabbar_mytaobao_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD911C71D67200BA2A04 /* tabbar_mytaobao_selected.png */; };
+		ACE5DD9D1C71D67200BA2A04 /* tabbar_cart_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD921C71D67200BA2A04 /* tabbar_cart_selected.png */; };
+		ACE5DD9E1C71D67200BA2A04 /* tabbar_cart_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD931C71D67200BA2A04 /* tabbar_cart_selected@2x.png */; };
+		ACE5DD9F1C71D67200BA2A04 /* tabbar_home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD941C71D67200BA2A04 /* tabbar_home_selected.png */; };
+		ACE5DDA01C71D67200BA2A04 /* tabbar_home_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD951C71D67200BA2A04 /* tabbar_home_unselected.png */; };
+		ACE5DDA11C71D67200BA2A04 /* tabbar_cart_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD961C71D67200BA2A04 /* tabbar_cart_unselected.png */; };
+		ACE5DDA21C71D67200BA2A04 /* tabbar_mytaobao_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD971C71D67200BA2A04 /* tabbar_mytaobao_unselected.png */; };
+		ACE5DDA31C71D67200BA2A04 /* tabbar_search_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD981C71D67200BA2A04 /* tabbar_search_selected.png */; };
+		ACE5DDA41C71D67200BA2A04 /* tabbar_search_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD991C71D67200BA2A04 /* tabbar_search_unselected.png */; };
+		ACE5DDA51C71D67200BA2A04 /* tabbar_weitao_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD9A1C71D67200BA2A04 /* tabbar_weitao_selected.png */; };
+		ACE5DDA61C71D67200BA2A04 /* tabbar_weitao_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = ACE5DD9B1C71D67200BA2A04 /* tabbar_weitao_unselected.png */; };
+		ACE5DDAA1C71DB6F00BA2A04 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE5DDA91C71DB6F00BA2A04 /* LoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC9CC0261C71D48A0023B16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9CC0011C71D48A0023B16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9CC0081C71D48A0023B16F;
+			remoteInfo = TaoBaoX;
+		};
+		AC9CC0311C71D48A0023B16F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC9CC0011C71D48A0023B16F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC9CC0081C71D48A0023B16F;
+			remoteInfo = TaoBaoX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC9CC0091C71D48A0023B16F /* TaoBaoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaoBaoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9CC00D1C71D48A0023B16F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9CC0191C71D48A0023B16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC9CC01B1C71D48A0023B16F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC9CC01E1C71D48A0023B16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC9CC0201C71D48A0023B16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9CC0251C71D48A0023B16F /* TaoBaoXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9CC0291C71D48A0023B16F /* TaoBaoXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoXTests.m; sourceTree = "<group>"; };
+		AC9CC02B1C71D48A0023B16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9CC0301C71D48A0023B16F /* TaoBaoXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaoBaoXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9CC0341C71D48A0023B16F /* TaoBaoXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaoBaoXUITests.m; sourceTree = "<group>"; };
+		AC9CC0361C71D48A0023B16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE5DD7F1C71D60500BA2A04 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACE5DD801C71D60500BA2A04 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACE5DD811C71D60500BA2A04 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		ACE5DD821C71D60500BA2A04 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		ACE5DD831C71D60500BA2A04 /* MyCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCartViewController.h; sourceTree = "<group>"; };
+		ACE5DD841C71D60500BA2A04 /* MyCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCartViewController.m; sourceTree = "<group>"; };
+		ACE5DD851C71D60500BA2A04 /* MyTaobaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTaobaoViewController.h; sourceTree = "<group>"; };
+		ACE5DD861C71D60500BA2A04 /* MyTaobaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTaobaoViewController.m; sourceTree = "<group>"; };
+		ACE5DD871C71D60500BA2A04 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		ACE5DD881C71D60500BA2A04 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		ACE5DD891C71D60500BA2A04 /* WeiTaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiTaoViewController.h; sourceTree = "<group>"; };
+		ACE5DD8A1C71D60500BA2A04 /* WeiTaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiTaoViewController.m; sourceTree = "<group>"; };
+		ACE5DD911C71D67200BA2A04 /* tabbar_mytaobao_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_mytaobao_selected.png; path = ../../CustomTabBar/tabbar_mytaobao_selected.png; sourceTree = "<group>"; };
+		ACE5DD921C71D67200BA2A04 /* tabbar_cart_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_cart_selected.png; path = ../../CustomTabBar/tabbar_cart_selected.png; sourceTree = "<group>"; };
+		ACE5DD931C71D67200BA2A04 /* tabbar_cart_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbar_cart_selected@2x.png"; path = "../../CustomTabBar/tabbar_cart_selected@2x.png"; sourceTree = "<group>"; };
+		ACE5DD941C71D67200BA2A04 /* tabbar_home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_home_selected.png; path = ../../CustomTabBar/tabbar_home_selected.png; sourceTree = "<group>"; };
+		ACE5DD951C71D67200BA2A04 /* tabbar_home_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_home_unselected.png; path = ../../CustomTabBar/tabbar_home_unselected.png; sourceTree = "<group>"; };
+		ACE5DD961C71D67200BA2A04 /* tabbar_cart_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_cart_unselected.png; path = ../../CustomTabBar/tabbar_cart_unselected.png; sourceTree = "<group>"; };
+		ACE5DD971C71D67200BA2A04 /* tabbar_mytaobao_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_mytaobao_unselected.png; path = ../../CustomTabBar/tabbar_mytaobao_unselected.png; sourceTree = "<group>"; };
+		ACE5DD981C71D67200BA2A04 /* tabbar_search_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_search_selected.png; path = ../../CustomTabBar/tabbar_search_selected.png; sourceTree = "<group>"; };
+		ACE5DD991C71D67200BA2A04 /* tabbar_search_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_search_unselected.png; path = ../../CustomTabBar/tabbar_search_unselected.png; sourceTree = "<group>"; };
+		ACE5DD9A1C71D67200BA2A04 /* tabbar_weitao_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_weitao_selected.png; path = ../../CustomTabBar/tabbar_weitao_selected.png; sourceTree = "<group>"; };
+		ACE5DD9B1C71D67200BA2A04 /* tabbar_weitao_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbar_weitao_unselected.png; path = ../../CustomTabBar/tabbar_weitao_unselected.png; sourceTree = "<group>"; };
+		ACE5DDA81C71DB5D00BA2A04 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		ACE5DDA91C71DB6F00BA2A04 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9CC0061C71D48A0023B16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CC0221C71D48A0023B16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CC02D1C71D48A0023B16F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9CC0001C71D48A0023B16F = {
+			isa = PBXGroup;
+			children = (
+				ACE5DDA71C71D68100BA2A04 /* Image */,
+				AC9CC00B1C71D48A0023B16F /* TaoBaoX */,
+				AC9CC0281C71D48A0023B16F /* TaoBaoXTests */,
+				AC9CC0331C71D48A0023B16F /* TaoBaoXUITests */,
+				AC9CC00A1C71D48A0023B16F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9CC00A1C71D48A0023B16F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CC0091C71D48A0023B16F /* TaoBaoX.app */,
+				AC9CC0251C71D48A0023B16F /* TaoBaoXTests.xctest */,
+				AC9CC0301C71D48A0023B16F /* TaoBaoXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9CC00B1C71D48A0023B16F /* TaoBaoX */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5DD7F1C71D60500BA2A04 /* AppDelegate.h */,
+				ACE5DD801C71D60500BA2A04 /* AppDelegate.m */,
+				ACE5DD811C71D60500BA2A04 /* IndexViewController.h */,
+				ACE5DD821C71D60500BA2A04 /* IndexViewController.m */,
+				ACE5DD831C71D60500BA2A04 /* MyCartViewController.h */,
+				ACE5DD841C71D60500BA2A04 /* MyCartViewController.m */,
+				ACE5DD851C71D60500BA2A04 /* MyTaobaoViewController.h */,
+				ACE5DD861C71D60500BA2A04 /* MyTaobaoViewController.m */,
+				ACE5DD871C71D60500BA2A04 /* SearchViewController.h */,
+				ACE5DD881C71D60500BA2A04 /* SearchViewController.m */,
+				ACE5DD891C71D60500BA2A04 /* WeiTaoViewController.h */,
+				ACE5DD8A1C71D60500BA2A04 /* WeiTaoViewController.m */,
+				AC9CC0181C71D48A0023B16F /* Main.storyboard */,
+				AC9CC01B1C71D48A0023B16F /* Assets.xcassets */,
+				AC9CC01D1C71D48A0023B16F /* LaunchScreen.storyboard */,
+				AC9CC0201C71D48A0023B16F /* Info.plist */,
+				AC9CC00C1C71D48A0023B16F /* Supporting Files */,
+				ACE5DDA81C71DB5D00BA2A04 /* LoginViewController.h */,
+				ACE5DDA91C71DB6F00BA2A04 /* LoginViewController.m */,
+			);
+			path = TaoBaoX;
+			sourceTree = "<group>";
+		};
+		AC9CC00C1C71D48A0023B16F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CC00D1C71D48A0023B16F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9CC0281C71D48A0023B16F /* TaoBaoXTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CC0291C71D48A0023B16F /* TaoBaoXTests.m */,
+				AC9CC02B1C71D48A0023B16F /* Info.plist */,
+			);
+			path = TaoBaoXTests;
+			sourceTree = "<group>";
+		};
+		AC9CC0331C71D48A0023B16F /* TaoBaoXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC9CC0341C71D48A0023B16F /* TaoBaoXUITests.m */,
+				AC9CC0361C71D48A0023B16F /* Info.plist */,
+			);
+			path = TaoBaoXUITests;
+			sourceTree = "<group>";
+		};
+		ACE5DDA71C71D68100BA2A04 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				ACE5DD911C71D67200BA2A04 /* tabbar_mytaobao_selected.png */,
+				ACE5DD921C71D67200BA2A04 /* tabbar_cart_selected.png */,
+				ACE5DD931C71D67200BA2A04 /* tabbar_cart_selected@2x.png */,
+				ACE5DD941C71D67200BA2A04 /* tabbar_home_selected.png */,
+				ACE5DD951C71D67200BA2A04 /* tabbar_home_unselected.png */,
+				ACE5DD961C71D67200BA2A04 /* tabbar_cart_unselected.png */,
+				ACE5DD971C71D67200BA2A04 /* tabbar_mytaobao_unselected.png */,
+				ACE5DD981C71D67200BA2A04 /* tabbar_search_selected.png */,
+				ACE5DD991C71D67200BA2A04 /* tabbar_search_unselected.png */,
+				ACE5DD9A1C71D67200BA2A04 /* tabbar_weitao_selected.png */,
+				ACE5DD9B1C71D67200BA2A04 /* tabbar_weitao_unselected.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9CC0081C71D48A0023B16F /* TaoBaoX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9CC0391C71D48A0023B16F /* Build configuration list for PBXNativeTarget "TaoBaoX" */;
+			buildPhases = (
+				AC9CC0051C71D48A0023B16F /* Sources */,
+				AC9CC0061C71D48A0023B16F /* Frameworks */,
+				AC9CC0071C71D48A0023B16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaoBaoX;
+			productName = TaoBaoX;
+			productReference = AC9CC0091C71D48A0023B16F /* TaoBaoX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC9CC0241C71D48A0023B16F /* TaoBaoXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9CC03C1C71D48A0023B16F /* Build configuration list for PBXNativeTarget "TaoBaoXTests" */;
+			buildPhases = (
+				AC9CC0211C71D48A0023B16F /* Sources */,
+				AC9CC0221C71D48A0023B16F /* Frameworks */,
+				AC9CC0231C71D48A0023B16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9CC0271C71D48A0023B16F /* PBXTargetDependency */,
+			);
+			name = TaoBaoXTests;
+			productName = TaoBaoXTests;
+			productReference = AC9CC0251C71D48A0023B16F /* TaoBaoXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC9CC02F1C71D48A0023B16F /* TaoBaoXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9CC03F1C71D48A0023B16F /* Build configuration list for PBXNativeTarget "TaoBaoXUITests" */;
+			buildPhases = (
+				AC9CC02C1C71D48A0023B16F /* Sources */,
+				AC9CC02D1C71D48A0023B16F /* Frameworks */,
+				AC9CC02E1C71D48A0023B16F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC9CC0321C71D48A0023B16F /* PBXTargetDependency */,
+			);
+			name = TaoBaoXUITests;
+			productName = TaoBaoXUITests;
+			productReference = AC9CC0301C71D48A0023B16F /* TaoBaoXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9CC0011C71D48A0023B16F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yangbolin;
+				TargetAttributes = {
+					AC9CC0081C71D48A0023B16F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AC9CC0241C71D48A0023B16F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC9CC0081C71D48A0023B16F;
+					};
+					AC9CC02F1C71D48A0023B16F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AC9CC0081C71D48A0023B16F;
+					};
+				};
+			};
+			buildConfigurationList = AC9CC0041C71D48A0023B16F /* Build configuration list for PBXProject "TaoBaoX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC9CC0001C71D48A0023B16F;
+			productRefGroup = AC9CC00A1C71D48A0023B16F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9CC0081C71D48A0023B16F /* TaoBaoX */,
+				AC9CC0241C71D48A0023B16F /* TaoBaoXTests */,
+				AC9CC02F1C71D48A0023B16F /* TaoBaoXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9CC0071C71D48A0023B16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE5DDA11C71D67200BA2A04 /* tabbar_cart_unselected.png in Resources */,
+				ACE5DD9D1C71D67200BA2A04 /* tabbar_cart_selected.png in Resources */,
+				ACE5DDA61C71D67200BA2A04 /* tabbar_weitao_unselected.png in Resources */,
+				AC9CC01F1C71D48A0023B16F /* LaunchScreen.storyboard in Resources */,
+				ACE5DDA51C71D67200BA2A04 /* tabbar_weitao_selected.png in Resources */,
+				AC9CC01C1C71D48A0023B16F /* Assets.xcassets in Resources */,
+				ACE5DD9F1C71D67200BA2A04 /* tabbar_home_selected.png in Resources */,
+				ACE5DDA31C71D67200BA2A04 /* tabbar_search_selected.png in Resources */,
+				ACE5DDA21C71D67200BA2A04 /* tabbar_mytaobao_unselected.png in Resources */,
+				ACE5DDA01C71D67200BA2A04 /* tabbar_home_unselected.png in Resources */,
+				ACE5DD9E1C71D67200BA2A04 /* tabbar_cart_selected@2x.png in Resources */,
+				ACE5DD9C1C71D67200BA2A04 /* tabbar_mytaobao_selected.png in Resources */,
+				AC9CC01A1C71D48A0023B16F /* Main.storyboard in Resources */,
+				ACE5DDA41C71D67200BA2A04 /* tabbar_search_unselected.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CC0231C71D48A0023B16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CC02E1C71D48A0023B16F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9CC0051C71D48A0023B16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACE5DDAA1C71DB6F00BA2A04 /* LoginViewController.m in Sources */,
+				ACE5DD8D1C71D60500BA2A04 /* MyCartViewController.m in Sources */,
+				ACE5DD8E1C71D60500BA2A04 /* MyTaobaoViewController.m in Sources */,
+				ACE5DD8B1C71D60500BA2A04 /* AppDelegate.m in Sources */,
+				AC9CC00E1C71D48A0023B16F /* main.m in Sources */,
+				ACE5DD901C71D60500BA2A04 /* WeiTaoViewController.m in Sources */,
+				ACE5DD8F1C71D60500BA2A04 /* SearchViewController.m in Sources */,
+				ACE5DD8C1C71D60500BA2A04 /* IndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CC0211C71D48A0023B16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9CC02A1C71D48A0023B16F /* TaoBaoXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC9CC02C1C71D48A0023B16F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9CC0351C71D48A0023B16F /* TaoBaoXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC9CC0271C71D48A0023B16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9CC0081C71D48A0023B16F /* TaoBaoX */;
+			targetProxy = AC9CC0261C71D48A0023B16F /* PBXContainerItemProxy */;
+		};
+		AC9CC0321C71D48A0023B16F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC9CC0081C71D48A0023B16F /* TaoBaoX */;
+			targetProxy = AC9CC0311C71D48A0023B16F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC9CC0181C71D48A0023B16F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9CC0191C71D48A0023B16F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC9CC01D1C71D48A0023B16F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9CC01E1C71D48A0023B16F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9CC0371C71D48A0023B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC9CC0381C71D48A0023B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9CC03A1C71D48A0023B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoBaoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolinyoung.TaoBaoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC9CC03B1C71D48A0023B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaoBaoX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolinyoung.TaoBaoX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC9CC03D1C71D48A0023B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoBaoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolinyoung.TaoBaoXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBaoX.app/TaoBaoX";
+			};
+			name = Debug;
+		};
+		AC9CC03E1C71D48A0023B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TaoBaoXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolinyoung.TaoBaoXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaoBaoX.app/TaoBaoX";
+			};
+			name = Release;
+		};
+		AC9CC0401C71D48A0023B16F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoBaoXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolinyoung.TaoBaoXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoBaoX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC9CC0411C71D48A0023B16F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TaoBaoXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bolinyoung.TaoBaoXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TaoBaoX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9CC0041C71D48A0023B16F /* Build configuration list for PBXProject "TaoBaoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CC0371C71D48A0023B16F /* Debug */,
+				AC9CC0381C71D48A0023B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9CC0391C71D48A0023B16F /* Build configuration list for PBXNativeTarget "TaoBaoX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CC03A1C71D48A0023B16F /* Debug */,
+				AC9CC03B1C71D48A0023B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9CC03C1C71D48A0023B16F /* Build configuration list for PBXNativeTarget "TaoBaoXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CC03D1C71D48A0023B16F /* Debug */,
+				AC9CC03E1C71D48A0023B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9CC03F1C71D48A0023B16F /* Build configuration list for PBXNativeTarget "TaoBaoXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9CC0401C71D48A0023B16F /* Debug */,
+				AC9CC0411C71D48A0023B16F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9CC0011C71D48A0023B16F /* Project object */;
+}
